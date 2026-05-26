@@ -18,7 +18,7 @@
       --text:    #1a1814;
       --text-2:  #4a4640;
       --text-3:  #8a857c;
-      --accent:  #d4921e;
+      --accent:  #0033a0;
       --accent-2:#e8a838;
       --accent-dim: rgba(212,146,30,0.13);
       --red:     #dc3535;
@@ -46,8 +46,9 @@
 
     /* ── TOPBAR ── */
     .store-topbar {
-      position: sticky; top: 0; z-index: 200;
-      background: rgba(15,17,23,0.92);
+      position: sticky; top: 0; 
+      z-index: 200;
+      background-color: #ffd600;
       backdrop-filter: blur(12px);
       border-bottom: 1px solid var(--border);
       padding: 0 28px;
@@ -66,7 +67,7 @@
       border-radius: 8px;
       display: flex; align-items: center; justify-content: center;
     }
-    .store-brand-icon svg { color: #000; }
+    .store-brand-icon svg { color: #fff; }
     .store-brand-name { font-size: 1rem; font-weight: 700; color: var(--text); letter-spacing: -0.01em; }
 
     .store-search {
@@ -97,7 +98,7 @@
     .btn-login {
       display: flex; align-items: center; gap: 6px;
       background: transparent;
-      border: 1px solid var(--border);
+      border: 2px solid var(--border);
       border-radius: var(--radius-sm);
       color: var(--text-2);
       font-family: var(--font);
@@ -511,7 +512,7 @@
     .login-submit {
       width: 100%; padding: 10px;
       background: var(--accent); border: none;
-      border-radius: var(--radius-sm); color: #000;
+      border-radius: var(--radius-sm); color: #fff;
       font-family: var(--font); font-size: 0.9rem; font-weight: 700;
       cursor: pointer; transition: background 0.13s;
       margin-top: 8px;
